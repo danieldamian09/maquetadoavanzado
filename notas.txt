@@ -1,1 +1,11 @@
 Maquetado Web HTML5 + CSS
+
+¿Que significa Maquetado?
+Es el preceso de volcar a codigo HTML Y CSS el proyecto Web que vayamos a realizar.
+
+Formula del HTML
+<elemento atributo = "valor">
+
+     Objerto
+
+</elemento>
