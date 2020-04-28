@@ -7,18 +7,21 @@ body{
 
 header{
     background-color: #33302A;
+    height: 140px;
 }
 
 nav{
     background-color: #706946;
+    height: 60px;
 }
 
 main{
-
+    min-height: 250px;
 
 }
 
 footer{
     background-color: #33302A;
+    height: 150px;
 
 }
