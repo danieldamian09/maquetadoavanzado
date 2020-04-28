@@ -1,0 +1,27 @@
+body{
+    background-color: #f4dec8;
+    color: #33302a;
+    font-family: helvetica;
+    font-size: 1.2em;
+}
+
+header{
+    background-color: #33302A;
+    height: 140px;
+}
+
+nav{
+    background-color: #706946;
+    height: 60px;
+}
+
+main{
+
+
+}
+
+footer{
+    background-color: #33302A;
+    height: 150px;
+
+}
