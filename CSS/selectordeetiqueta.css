@@ -1,0 +1,19 @@
+/* los 4 atributos a modificar en el html*/
+body{
+    background-color: #b4b4b4;
+    color: #060679;
+    font-family: Rotis, tahoma, sans-serif; 
+    font-size: 20px;    
+}
+
+p{
+    background-color: #ffffff;
+    padding: 12px;
+    border: #000000 dashed 2px;
+}
+
+li{
+    background-color: #4ac5ff;
+    width: 150px;
+    margin: 6px;
+}

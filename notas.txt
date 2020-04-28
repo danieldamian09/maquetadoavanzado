@@ -12,3 +12,10 @@ Formula del HTML
 
 
 Formula del CSS
+selector{
+    atributo: valor;
+}
+
+TIPOS DE selector
+
+1 Selector de etiqueta
