@@ -1,0 +1,25 @@
+body{
+    background-color:#B4C2CC;
+
+}
+
+#encabezado{
+    background-color: #255B80;
+    height: 150px;
+}
+
+#menu{
+    background-color: #707980;
+    height: 60px;
+}
+
+#contenido{
+    background-color:#E0F3FF;
+    min-height: 500px;
+
+}
+
+#pie{
+    background-color: #255B80;
+    height: 150px;
+}
