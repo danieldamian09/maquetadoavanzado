@@ -1,0 +1,39 @@
+body{
+    background-color: #B8FFFE;
+}
+
+#rojo, #magenta, #naranja{
+    height: 100px;
+    width: 250px;
+    float: left;              /* <me permite colocar los elementos una al lado del otro> */
+    margin-right: 20px;
+}
+
+#rojo{
+    background-color: red;
+    /*float: left;               /* <me permite colocar el elemento todo a la derecha> */ 
+    /*------------ <cuando quite el float right y coloque el float left la caja se va a montar sobre magenta>-------------*/
+    
+
+}
+
+#magenta{
+    background-color: magenta;
+    /*float: right;*/    /* con esto naranja quedaria debajo de rojo*/
+    /*float: left;        /*se mueve todo a la izquierda hasta que choca con la caja mas cercana*/
+}
+
+#naranja{
+    background-color: orange;
+    /*float: right;*/  /*se va la caja a la derecha*/
+    /*float: left;       /*todos los elementos quedan uno al lado del otro*/
+}
+
+#gris{
+    height: 60px;
+    background-color: #999;
+    width: 800px;
+    float: left;
+    clear: both;   /* clear both me permite detener la caracteristica de que las cajas floten */
+}
+
