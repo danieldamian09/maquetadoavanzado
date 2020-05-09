@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Righteous, 'Times New Roman', Times, serif;
+    width: 960px;
+    margin: auto;
+    background-color: #fff;
+}
+
+header, footer{
+    background: #172E80;
+    height: 150px;
+}
+
+nav{
+    background-color: #7391FF;
+    height: 60px;
+}
+
+main{
+    background-color: #BFCDFF;
+    min-height: 500px;
+}
+
+      main article{
+          background-color: #99A4CC;
+          height: 200px;
+          width: 450px;
+          margin-left: 20px;
+          float: left;
+          margin-top: 20px;
+        
+      }
+
+      main hr{
+          height: 20px;
+          clear: both;
+          border: none;
+          
+      }
