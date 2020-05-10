@@ -14,4 +14,4 @@ es decir section => article
 -----------nota cuando el elemento esta flotado no esta en el flujo normal del html------------
 
 
-Tiempo de la clase 01:13:37
+Tiempo de la clase 01:54:00

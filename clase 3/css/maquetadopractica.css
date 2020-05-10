@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F2F2F2;
+    font-family: 'Modak', cursive;
+    font-size: 1.2em;
+}
+
+header, footer{
+    background-color: #BEBDBF;
+    height: 150px;
+}
+
+nav{
+    height: 75px;
+    background-color: #1A1C26;
+}
+
+main{
+    min-height: 500px;
+    width: 980px;
+    margin: auto;
+
+}
+
+    #articulos article{
+        width: 300px;
+        display: inline-block;
+        margin: 20px 0px 0px 20px;
+        
+    }
+
+    #promo{
+        width: 940px;
+        background-color: #6A6A73;
+        margin: 20px;
+        padding: 20px;
+    }
+
