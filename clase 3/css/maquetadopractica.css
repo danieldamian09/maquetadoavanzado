@@ -5,7 +5,8 @@
 
 body{
     background-color: #F2F2F2;
-    font-family: 'Modak', cursive;
+    font-family: 'Modak',cursive;
+    font-family: 'Hind',sans-serif;
     font-size: 1.2em;
 }
 
@@ -14,10 +15,28 @@ header, footer{
     height: 150px;
 }
 
+
+
 nav{
     height: 75px;
     background-color: #1A1C26;
+    text-align: center;
 }
+
+    nav a{
+        text-decoration: none;
+        color:#faf8f7;
+        font-size: 1.5em;
+        display: inline-block;
+        margin: auto;
+        padding: 14px;
+    }
+
+    a:hover{
+        background-color: #3e4568;
+    }
+
+
 
 main{
     min-height: 500px;
@@ -40,3 +59,9 @@ main{
         padding: 20px;
     }
 
+footer{
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 50px;
+    
+}
