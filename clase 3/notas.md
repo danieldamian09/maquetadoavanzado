@@ -15,4 +15,4 @@ es decir section => article
 
 Para utilizar <display: flex;> necesitamos tener un contenedor
 
-Tiempo de la clase 01:54:00
+Tiempo de la clase 03:14:00
