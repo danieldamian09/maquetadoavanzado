@@ -13,5 +13,6 @@ es decir section => article
 
 -----------nota cuando el elemento esta flotado no esta en el flujo normal del html------------
 
+Para utilizar <display: flex;> necesitamos tener un contenedor
 
 Tiempo de la clase 01:54:00

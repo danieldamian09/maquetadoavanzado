@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 900px;
+    margin: auto;
+    background-color: #E3E6FF;
+    font-family: 'Modak', cursive;
+    font-family: 'Hind', sans-serif;
+    font-size: 1.2em;
+}
+
+h1, h2{
+    margin: 25px 0px;
+}
+
+                                   /* contenedores */
+
+#contenedor, #contenedor2, #contenedor3, #contenedor4, #contenedor5{
+    background-color: #96A1FF;
+    min-height: 300px;
+    display: flex;          /* para poder utilizar esta propiedad necesitamos un contenedor*/
+}
+
+    article{
+        background-color: #717380;
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        margin: 20px;
+    }
+
+/* direccion de los elementos contenidos*/
+
+#contenedor{
+    flex-direction: row; /*predeterminado*/
+    /* flex-direction: row-reverse; invierte el orden de las filas*/ 
+    /* flex-direction: column; se colocan en columnas */
+    /* flex-direction: column-reverse; invierte el orden de las colunas */
+}
+
+/* como se manejan la distribucion de los contenidos y sus anchos*/
+
+#contenedor2{
+    flex-direction: row;
+    /* flex-wrap: nowrap;  es el predeterminado, no respeta el ancho y alto del contenedor*/
+    flex-wrap: wrap;   /* respeta el ancho del contenedor y se ajustan los elementos para ocupar el espacio*/
+
+}
+
+#contenedor3{
+    flex-direction: row;
+    flex-wrap: wrap; /* respeta los anchos*/
+    justify-content: flex-start; /* es el predeterminado */
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; /* distrubuye los elementos sin respetar el margen*/
+
+}
+
+#contenedor4{
+    flex-direction: row;
+    flex-wrap: wrap; /* respeta los anchos */
+    justify-content: space-evenly;
+    align-content: flex-start; /* predeterminado*/
+    align-content: flex-end;
+    align-content: center;
+}
+
+#contenedor5{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: stretch; /* estira las cajas en vertical ojo si tiene altura la caja no sirve */
+}
+
+    #contenedor5 article{
+        height: initial; /* para quitar la altura*/
+    }
