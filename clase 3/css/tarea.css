@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1080px;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+header{
+    height: 62px;
+    width: 1080px;
+    background-color: #040404;
+
+}
+
+nav{
+    background-color: #9FB3BF;
+    text-align: right;
+    height: 300px;
+    
+
+}
+
+    nav a{
+        color: #fff;
+        padding: 5px;
+        margin: 5px;
+    }
+
+main{
+    background-color: #A7D0D9;
+    
+}
+
+    #contenedor{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .uno{
+        height: 157px;
+        width: 400px;
+        background-color: #274659;
+        margin-top: 20px;
+    }
+
+    #oferta{
+        width: 1080px;
+        height: 122px;
+        margin-top: 20px;
+        background-color: #011826;
+        color: #fff;
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+
+
+    #productos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #productos article{
+        background-color: #274659;
+        width: 247px;
+        height: 241px;
+        margin: 20px 0px 20px 0px;
+    }
+
+footer{
+    background-color: #040404;
+    width: 1080px;
+    height: 119px;
+}
