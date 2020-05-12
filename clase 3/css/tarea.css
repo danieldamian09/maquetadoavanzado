@@ -29,7 +29,10 @@ nav{
         color: #fff;
         padding: 5px;
         margin: 5px;
+
+        
     }
+
 
 main{
     background-color: #A7D0D9;
@@ -48,6 +51,7 @@ main{
         width: 400px;
         background-color: #274659;
         margin-top: 20px;
+        text-align: center;
     }
 
     #oferta{
@@ -56,8 +60,13 @@ main{
         margin-top: 20px;
         background-color: #011826;
         color: #fff;
-        padding: 20px 20px;
-        text-align: center;
+        display: flex;
+        justify-content:space-evenly;
+    }
+
+    #oferta #contenedor3{
+        margin-top: 20px;
+    
     }
 
 
@@ -79,5 +88,9 @@ main{
 footer{
     background-color: #040404;
     width: 1080px;
-    height: 119px;
+    height: 120px;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    
 }
